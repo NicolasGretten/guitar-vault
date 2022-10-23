@@ -1,4 +1,4 @@
-import type {NextComponentType, NextPage} from 'next'
+import type {NextComponentType} from 'next'
 import {router} from "next/client";
 
 const Header: NextComponentType = () => {
@@ -14,6 +14,11 @@ const Header: NextComponentType = () => {
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/vault')}>The Vault</a>
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/offers')}>Annonces</a>
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/forum')}>Forum</a>
+                        <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/about')}>A propos</a>
+                        {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">Accueil</a>*/}
+                        {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">The Vault</a>*/}
+                        {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">Annonces</a>*/}
+                        {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">Forum</a>*/}
                     </nav>
                     <button
                         className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
