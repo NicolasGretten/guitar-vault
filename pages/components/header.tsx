@@ -15,6 +15,7 @@ const Header: NextComponentType = () => {
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/offers')}>Annonces</a>
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/forum')}>Forum</a>
                         <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/about')}>A propos</a>
+                        <a className="mr-5 hover:text-gray-900 hover:cursor-pointer" onClick={() => router.push('/contact')}>Contact</a>
                         {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">Accueil</a>*/}
                         {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">The Vault</a>*/}
                         {/*<a className="mr-5 hover:text-gray-900 hover:cursor-pointer">Annonces</a>*/}
