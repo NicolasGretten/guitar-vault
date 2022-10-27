@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Footer from "./footer";
 import Header from "./header";
 import React from "react";
