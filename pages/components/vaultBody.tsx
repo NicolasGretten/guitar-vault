@@ -8,7 +8,7 @@ const VaultBody: NextComponentType = () => {
                 <div className="flex w-full mb-20 flex-wrap">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">The Vault</h1>
-                        <div className="h-1 w-20 bg-purple-500 rounded"></div>
+                        <div className="h-1 w-20 bg-purple-500 rounded"/>
                     </div>
                     <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Ici vous pouvez retrouver les avis des instruments de nos utilisateurs, accompagné de photos et d'un ou plusieurs clip audio.</p>
                 </div>
